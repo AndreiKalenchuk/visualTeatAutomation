@@ -6,5 +6,11 @@ class HomePage {
     //                      --> HomePage.header.searchInp
 
     get header () { return new Header(); }
+    get mainMenu () { return $('#DIV__mainmenu__15'); }
+
+    open(){
+        browser.url(`/gridHackathonV${global.appVersion}.html`)
+    }
+
 }
 module.exports = new HomePage();

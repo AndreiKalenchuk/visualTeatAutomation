@@ -1,4 +1,5 @@
 let timeout = (process.env.DEBUG === 'true') ? 99999999 : 120000;
+global.appVersion = process.env.VERSION == 2 ? '2' : '1';
 
 exports.config = {
     //

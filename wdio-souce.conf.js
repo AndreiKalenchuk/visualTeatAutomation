@@ -1,4 +1,4 @@
-const { config } = require('wdio.conf.js');
+const { config } = require('./wdio.conf.js');
 
 // replace chromedriver with sauce
 const services = config.services.filter( (element) => {
