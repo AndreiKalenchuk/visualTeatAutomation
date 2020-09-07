@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/AndreiKalenchuk/visualTeatAutomation#readme",
   "dependencies": {
+    "@applitools/eyes-selenium": "^4.45.3",
+    "@applitools/eyes-webdriverio": "^5.22.0",
     "@wdio/cli": "^6.4.6"
   },
   "devDependencies": {
