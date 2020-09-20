@@ -1,4 +1,5 @@
 const {viewports} = require("../../../utils/constans");
+const {apiKey} = require("../../../utils/constans")
 const HomePage = require('../../pageObjects/HomePage');
 
 const {
@@ -36,7 +37,7 @@ configuration.addBrowser(768, 700, 'edgechromium');
 configuration.addDeviceEmulation('iPhone X', 'portrait');
 
 // Set your private API key here or in the "APPLITOOLS_API_KEY" environment variable
-configuration.setApiKey('0Om6Wi10353niB38AovgUucUtAYkhqXdWAPQkn7jEWTEc110');
+configuration.setApiKey(apiKey);
 eyes.setConfiguration(configuration);
 
 // driver = await eyes.open(driver);

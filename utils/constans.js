@@ -13,6 +13,8 @@ module.exports = {
             width: 500,
             height: 700
         },
-    }
+    },
+
+    apiKey: '0Om6Wi10353niB38AovgUucUtAYkhqXdWAPQkn7jEWTEc110'
 
 };
